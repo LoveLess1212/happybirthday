@@ -3,8 +3,9 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
+  font-family: "Grandstander", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .song {
@@ -21,7 +22,7 @@ body {
   width: 100vw;
 }
 
-.container > div {
+.container>div {
   left: 0;
   position: absolute;
   right: 0;
@@ -50,9 +51,16 @@ body {
   width: 600px;
 }
 
+.four .inside-textbox {
+  width: 600px;
+  height: 100px;
+}
+
 .text-box p {
   margin: 0;
+  /* padding: 3px; */
   text-align: left;
+  position: absolute;
 }
 
 .text-box span {
@@ -77,20 +85,25 @@ body {
 }
 
 .idea-3 strong {
-  border-radius: 3px;
+  border-radius: 5px;
   display: inline-block;
-  padding: 3px 5px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .five .idea-5 {
   font-size: 4rem;
 }
 
-.idea-5 span, .idea-6 span, .wish-hbd span {
+.idea-5 span,
+.idea-6 span,
+.wish-hbd span {
   display: inline-block;
 }
 
-.idea-6 span{
+.idea-6 span {
   font-size: 15rem;
 }
 
@@ -103,16 +116,16 @@ body {
 
 .six img {
   display: inline-block;
-  height: 350px;
+  height: 400px;
   max-width: 100%;
   /* height: auto; */
 }
 
 .six .hat {
-  left: 41.5%;
+  left: 52%;
   position: absolute;
   /* transform: scale(0.1); */
-  top: -35%;
+  top: -37%;
   width: 80px;
 }
 
@@ -133,7 +146,8 @@ body {
   left: 30%;
 }
 
-.seven, .eight {
+.seven,
+.eight {
   height: 100vh;
   position: fixed;
   top: 0;
@@ -222,6 +236,7 @@ body {
 
 #replay {
   cursor: pointer;
+  color: #cfa1c0;
   z-index: 3;
 }
 
@@ -240,13 +255,13 @@ body {
 
 @media screen and (max-height: 700px) {
   .six .hat {
-    left: 32%;
+    left: 53%;
   }
 }
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
-    left: 32%;
+    left: 65%;
   }
 }
 
